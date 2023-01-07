@@ -18,7 +18,7 @@ def hasFilters(filename, filters=None):
             return False
     return True
 
-#Citation (Read File): https://piazza.com/class/l7fcib4cn0c34h/post/453 
+#Citation (Read File): Code provided in 15-112 Piazza Post
 def readFile(path):
     with open(path, "rt") as f:
         return f.read()
@@ -34,7 +34,7 @@ def lstBoard(s):
         board.append(numLst)
     return board
 
-#Citation (Load Board): https://piazza.com/class/l7fcib4cn0c34h/post/459 
+#Citation (Load Board): Code provided in 15-112 Piazza Post
 def loadBoard(filters):
     filesLst = loadBoardPaths(filters)
     filename = random.choice(filesLst)
