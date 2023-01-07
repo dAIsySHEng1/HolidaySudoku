@@ -1,3 +1,4 @@
+# The below code is by CMU's CS Academy. It is used along with the graphics package to run the visuals for the project. 
 from cmu_graphics.cmu_graphics import *
 from cmu_graphics.shape_logic import PILWrapper as CMUImage
 import threading, traceback, types, inspect, copy, sys
