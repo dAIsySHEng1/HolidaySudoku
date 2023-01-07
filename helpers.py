@@ -334,13 +334,13 @@ def drawLegals(app, row, col):
 # Sudoku Board Drawing Helpers
 ##################################
 
-#Citation (Draw Board): https://cs3-112-f22.academy.cs.cmu.edu/notes/4187 
+#Citation (Draw Board): Code provided in CMU CS Academy CS3 Notes
 def drawBoard(app):
     for row in range(app.rows):
         for col in range(app.cols):
             drawCell(app, row, col, app.state.board[row][col])
 
-#Citation (Draw Board Borders): https://cs3-112-f22.academy.cs.cmu.edu/notes/4187 
+#Citation (Draw Board Borders): Code provided in CMU CS Academy CS3 Notes
 def drawBoardBorders(app):
     cellWidth, cellHeight = getCellSize(app)
     #board border
@@ -356,7 +356,7 @@ def drawBoardBorders(app):
                 app.boardLeft + app.boardWidth, app.boardTop + 3*index*cellHeight, 
                 fill = 'black',lineWidth = 5*app.cellBorderWidth)
 
-#Citation (Draw Cell): https://cs3-112-f22.academy.cs.cmu.edu/notes/4187 
+#Citation (Draw Cell): Code provided in CMU CS Academy CS3 Notes
 #Citation (Images & PIL Demo): https://www.cs.cmu.edu/~112-3/notes/term-project.html 
 def drawCell(app, row, col, color):
     cellLeft, cellTop = getCellLeftTop(app, row, col)
@@ -405,14 +405,14 @@ def drawCell(app, row, col, color):
 # Sudoku Board General Helpers
 ##################################
 
-#Citation: https://cs3-112-f22.academy.cs.cmu.edu/notes/4187 
+#Citation: Code provided in CMU CS Academy CS3 Notes
 def getCellLeftTop(app, row, col):
     cellWidth, cellHeight = getCellSize(app)
     cellLeft = app.boardLeft + col * cellWidth
     cellTop = app.boardTop + row * cellHeight
     return (cellLeft, cellTop)
 
-#Citation: https://cs3-112-f22.academy.cs.cmu.edu/notes/4187 
+#Citation: Code provided in CMU CS Academy CS3 Notes
 def getCellSize(app):
     cellWidth = app.boardWidth / app.cols
     cellHeight = app.boardHeight / app.rows
@@ -428,7 +428,7 @@ def zeroCount(boardLst):
                 numZeros += 1
     return numZeros
 
-#Citation: https://cs3-112-f22.academy.cs.cmu.edu/notes/4189 
+#Citation: Code provided in CMU CS Academy CS3 Notes
 def getCell(app, x, y):
     dx = x - app.boardLeft
     dy = y - app.boardTop
@@ -462,7 +462,7 @@ def findSingleton(app):
 # General Controller Helpers
 ##################################
 
-#Citation: https://cs3-112-f22.academy.cs.cmu.edu/notes/4189
+#Citation: Code provided in CMU CS Academy CS3 Notes
 def moveSelection(app, drow, dcol):
     if app.selection != None:
         selectedRow, selectedCol = app.selection
@@ -479,7 +479,7 @@ from PIL import Image, ImageDraw, ImageFont
 
 #Citation for Draw Text in PIL: https://www.geeksforgeeks.org/python-pil-imagedraw-draw-text/
 #Citation for Draw Line in PIL: https://www.geeksforgeeks.org/python-pil-imagedraw-draw-line/ 
-#Citation for Crimson Color: https://cs3-112-f22.academy.cs.cmu.edu/docs/builtInColors 
+#Citation for Crimson Color: Colors provided in CMU CS Academy Docs+Colors Notes
 #Citation for Image Font Type & Size in PIL: https://pillow.readthedocs.io/en/stable/reference/ImageFont.html#PIL.ImageFont.truetype 
 #Citation for Image, PIL, and Save as PDF: https://www.cs.cmu.edu/~112-3/notes/term-project.html 
 
