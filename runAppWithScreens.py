@@ -1,4 +1,4 @@
-#Citation (Entire Screens Code): https://www.cs.cmu.edu/~112-3/notes/term-project.html 
+#Citation (Entire Screens Code): Provided by Prof. Kosbie - https://www.cs.cmu.edu/~112-3/notes/term-project.html 
 try: from cmu_cs3_graphics import *
 except: from cmu_graphics import *
 
