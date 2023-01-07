@@ -24,7 +24,7 @@ that there is no solution and display "Game Over" when the user exits Manual Ent
 "j" to highlight the cell for Hint 1; "k" to play the cell for Hint 1; "g" to highlight the cells for Hint 2; "h" to ban legals for Hint 2.
 
 ### Running the Program:
-- Run the program by running "main.py". You will need the CMU CS Academy graphics package that can be found [here](https://academy.cs.cmu.edu/desktop). 
+- Run the program by running "main.py". You will need the CMU CS Academy graphics package (cmu_graphics folder and cmu_cs3_graphics.py) that can be found [here](https://academy.cs.cmu.edu/desktop). 
 - No external libraries need to be imported - what's needed has already been imported in the relevant .py files. The holiday stamp images are in the stamps 
 folder and the pre-loaded sudoku board are in the board folder.
 - This project was coded up using cmu-graphics version 1.1.18.
