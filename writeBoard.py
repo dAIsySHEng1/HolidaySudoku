@@ -1,7 +1,7 @@
 import os
 import string
 
-#Citation (Write File): https://piazza.com/class/l7fcib4cn0c34h/post/453 
+#Citation (Write File): Code provided in 15-112 Piazza Post
 def writeFile(path, contents):
     with open(path, "wt") as f:
         f.write(contents)
