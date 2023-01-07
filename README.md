@@ -9,7 +9,7 @@ Each mode has 6 different levels: easy, medium, hard, expert, evil, and manual. 
 manual mode, the user can choose to input a custom board or load a .txt file. In each mode, the user can also receive hints, undo/redo moves, and toggle legals. 
 
 ### Special Holiday Features:
-A "stamps" button is provided in each mode, which allows the user to play a variation of sudoku where numbers are replaced by Canada Post's holiday stamps
+A "stamps" button is provided in each mode, which allows the user to play a variation of sudoku where numbers are replaced by [Canada Post's](https://store.canadapost.ca/store-boutique/en/10/c/stamps-and-collectibles) holiday stamps
 from over the years. Users can "play" the stamps by clicking on a key pad or entering a digit from 1-9 corresponding with the particular image's name/position.
 To turn holiday mode on/off, click the "Stamps" button in Standard/Mouse mode or type the key "p" in Standard/Key mode.
 
