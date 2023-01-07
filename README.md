@@ -1,2 +1,2 @@
-# HolidaySudoku
-Holiday-Themed Sudoku Term Project
+# Holiday Sudoku
+Holiday Sudoku is my holiday-themed sudoku term project for CMU's 15-112 Lecture 3 course. It is written in Python and uses the CMU CS Academy CS3 graphics package. A short video overview about my sudoku project and its special features can be found at this [link](https://www.loom.com/share/0f1516868dbc434aad9f09f96f8942da). Special thanks to Prof. Kosbie and my term project mentor, Ethan!
